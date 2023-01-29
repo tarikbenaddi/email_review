@@ -1,0 +1,16 @@
+{
+    "_comment1": "============Credentials============",
+    "sender_email"      :"xxx@gmail.com",
+    "receiver_email"    :"xxx@gmail.com",
+    "email_password"    :"xxx",
+    "subject_email"     :"xxx",
+    "smtp_server"       :"smtp.gmail.com",
+    "smtp_port"         :587,
+
+    "_comment2": "============Parameters============",
+    "number_of_files"   :1,
+    "directory"         :"xxx",
+    "excluded_folders"  :["xxx","xxx"],
+    "include_hidden"    :0,
+    "excluded_files"    :[ "xxx","xxx"]
+}
