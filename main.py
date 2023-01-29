@@ -49,7 +49,7 @@ def send_email(smtp_server, smtp_port, sender_email, password, receiver_email,su
     with smtplib.SMTP(smtp_server, smtp_port) as server:
         server.starttls()
         server.login(sender_email, password)
-        #server.sendmail(sender_email, receiver_email, message.as_string())
+        server.sendmail(sender_email, receiver_email, message.as_string())
 
 
 def format_notes(notes):
